@@ -100,7 +100,7 @@ int main()
     {
         ll a,b;
         cin>>a>>b;
-      ll ans=phi[b]-phi[a-1];
+      unsigned long long  ans=phi[b]-phi[a-1];
       cout<<"Case "<<test<<": "<<ans<<endl;
     }
 }
